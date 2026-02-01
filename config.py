@@ -1,0 +1,10 @@
+BOT_TOKEN = "ВАШ_ТЕЛЕГРАМ_ТОКЕН"
+CHANNEL_ID = -1001234567890     # ID каналу (наприклад "@your_channel")
+SCHEDULE_URL = "https://example.com/poweroutage_schedule"  # Посилання на графік
+COMPANY_NAME = "Обленерго"
+PUBLISH_TIME = "07:00"          # Час ранкового поста
+UPDATE_INTERVAL_MIN = 15        # Інтервал перевірок (хвилин)
+DB_PATH = "outage_data.db"
+RETRY_COUNT = 3
+RETRY_DELAY = 10                # Затримка при помилці (сек)
+LOG_LEVEL = "INFO"
